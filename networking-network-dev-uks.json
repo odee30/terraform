@@ -1,0 +1,4 @@
+{
+  "name": "vnet-dev-uks",
+  "address_space": "172.16.0.0/16" 
+}
