@@ -4,5 +4,5 @@
   "storage_account_name": "tfbackendstorage01",
   "networking_state_container": "tf-state-networking",
   "asg_state_container": "tf-state-asg",
-  "nsg_state_container": :tf-state-nsg"
+  "nsg_state_container": "tf-state-nsg"
 }
