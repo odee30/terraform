@@ -2,6 +2,7 @@
   "resource_group_name": "networking-dev-uks",
   "location": "uksouth",
   "virtual_network_name": "vnet-dev-uks",
-  "address_space": "172.16.0.0/16;172.17.0.0/16",
+  "address_space": "172.16.0.0/16",
   "subnets": "snet-adds-dev-uks; snet-sql-dev-uks"
+  "subnet_sizes": "28; 27"
 }
