@@ -3,7 +3,7 @@
   "location": "uksouth",
   "virtual_network_name": "vnet-dev-uks",
   "address_space": "172.16.0.0/16",
-  "subnets": "snet-adds-dev-uks; snet-sql-dev-uks; snet-adfs2fe-dev-uks; snet-adfs2be-dev-uks snet-adfs3fe-dev-uks; snet-adfs3be-dev-uks; snet-web-dev-uks",
-  "subnet_sizes": "28; 27, 27, 27, 27, 27, 24",
+  "subnets": "GatewaySubnet; snet-adds-dev-uks; snet-sql-dev-uks; snet-adfs2fe-dev-uks; snet-adfs2be-dev-uks snet-adfs3fe-dev-uks; snet-adfs3be-dev-uks; snet-web-dev-uks",
+  "subnet_sizes": "27, 28; 27, 27, 27, 27, 27, 24",
   "application_security_groups": "asg-adds-servers-dev-uks; asg-adds-clients-dev-uks; asg-sql-servers-dev-uks; asg-sql-clients-dev-uks; asg-adfs2be-servers-dev-uks; asg-adfs2fe-servers; asg-adfs3be-servers-dev-uks; asg-adfs3fe-servers"
 }
