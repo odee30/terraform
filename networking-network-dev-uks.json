@@ -3,6 +3,7 @@
   "location": "uksouth",
   "virtual_network_name": "vnet-dev-uks",
   "address_space": "172.16.0.0/16",
-  "subnets": "snet-adds-dev-uks;snet-sql-dev-uks",
-  "subnet_sizes": "28;27"
+  "subnets": "snet-adds-dev-uks; snet-sql-dev-uks",
+  "subnet_sizes": "28; 27"
+  "application_security_groups": "asg-adds-dev-uks; asg-sql-dev-uks"
 }
